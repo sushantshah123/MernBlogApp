@@ -79,7 +79,7 @@ const BlogDetails = () => {
             Update Posts
           </Typography>
           <InputLabel
-            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold" }}
+            sx={{ mb: -1, mt: 2, fontSize: "24px", fontWeight: "bold",color:"gray" }}
           >
             Title
           </InputLabel>
@@ -89,10 +89,11 @@ const BlogDetails = () => {
             onChange={handleChange}
             margin="normal"
             variant="outlined"
+            sx={{backgroundColor:'white',borderRadius:'5px'}}
             required
           />
           <InputLabel
-            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold" }}
+            sx={{ mb: -1, mt: 2, fontSize: "24px", fontWeight: "bold",color:"gray" }}
           >
             Description
           </InputLabel>
@@ -102,10 +103,11 @@ const BlogDetails = () => {
             onChange={handleChange}
             margin="normal"
             variant="outlined"
+            sx={{backgroundColor:'white',borderRadius:'5px'}}
             required
           />
           <InputLabel
-            sx={{ mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold" }}
+            sx={{ mb: -1, mt: 2, fontSize: "24px", fontWeight: "bold",color:"gray" }}
           >
             Image URL
           </InputLabel>
@@ -115,6 +117,7 @@ const BlogDetails = () => {
             onChange={handleChange}
             margin="normal"
             variant="outlined"
+            sx={{backgroundColor:'white',borderRadius:'5px'}}
             required
           />
           <Button type="submit" color="warning" variant="contained">

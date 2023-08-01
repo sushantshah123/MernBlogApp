@@ -66,7 +66,7 @@ const Register = () => {
             onChange={handleChange}
             name="name"
             margin="normal"
-            sx={{width:'100%'}}
+            sx={{width:'100%',backgroundColor:'white',borderRadius:'5px'}}
             type={"text"}
             required
           />
@@ -75,7 +75,7 @@ const Register = () => {
             value={inputs.email}
             name="email"
             margin="normal"
-            sx={{width:'100%'}}
+            sx={{width:'100%',backgroundColor:'white',borderRadius:'5px'}}
             type={"email"}
             required
             onChange={handleChange}
@@ -85,7 +85,7 @@ const Register = () => {
             value={inputs.password}
             name="password"
             margin="normal"
-            sx={{width:'100%'}}
+            sx={{width:'100%',backgroundColor:'white',borderRadius:'5px'}}
             type={"password"}
             required
             onChange={handleChange}

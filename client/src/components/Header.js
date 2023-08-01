@@ -35,7 +35,7 @@ const Header = () => {
   };
   return (
     <>
-      <AppBar position="sticky" sx={{background:"orange"}}>
+      <AppBar position="sticky" sx={{background:"red"}}>
         <Toolbar>
           <Typography variant="h4">Blogging APP</Typography>
           {isLogin && (

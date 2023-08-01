@@ -69,7 +69,7 @@ const Login = () => {
             value={inputs.email}
             name="email"
             margin="normal"
-            sx={{width:'100%'}}
+            sx={{width:'100%',backgroundColor:'white',borderRadius:'5px'}}
             type={"email"}
             required
             onChange={handleChange}
@@ -79,7 +79,7 @@ const Login = () => {
             value={inputs.password}
             name="password"
             margin="normal"
-            sx={{width:'100%'}}
+            sx={{width:'100%',backgroundColor:'white',borderRadius:'5px'}}
             type={"password"}
             required
             onChange={handleChange}
